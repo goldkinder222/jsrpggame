@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JS course</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="player">
+            <div class="player-header">
+                <div class="params">
+                    <img src="img/gold.png" class="params-img" alt="gold" id="gold-icon">
+                    <div class="params-text" id="gold">100 Золота</div>
+                </div>
+                <div class="params">
+                    <img src="img/hp.png" class="params-img" alt="hp" id="hp-icon">
+                    <div class="params-text" id="hp">100 ХП</div>
+                </div>
+                <div class="params">
+                    <img src="img/exp.png" class="params-img" alt="exp" id="exp-icon">
+                    <div class="params-text" id="exp">0 Опыта</div>
+                </div>
+            </div>
+            <div class="player-equip">
+                <div class="player-inventory">
+                    <img src="img/bag.png" alt="inventory" class="inventory-icon">
+                    <div class="player-invetory-inner">
+                    </div>
+                </div>
+                <div class="player-gear">
+                    <div class="gear-inner">
+                        <div class="gearItem" id="item"></div>
+                        <div class="gearItem"></div>
+                        <div class="gearItem"></div>
+                        <div class="gearItem"></div>
+                        <div class="gearItem"></div>
+                        <div class="gearItem"></div>
+                        <div class="gearItem"></div>
+                        <div class="gearItem"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div src="img/forest.jpg" alt="background" class="enemy">
+            <div class="enemy-inner">
+                <div class="enemy-info">
+                    <div class="enemy-header">
+                        <div class="enemy-info-item"></div>
+                        <div class="enemy-info-item"></div>
+                    </div>
+                    <img id="enemy-img" src="img/troll.png" alt="enemy" class="enemy-img">
+                </div>
+                <div class="buttons-inner">
+                    <button class="btn" id="run-btn">
+                      <img src="img/run.png" alt="run">
+                    </button>
+                    <button class="btn" id="battle-btn">
+              <img src="img/swords.png" alt="battle">
+            </button>
+                    <button class="btn"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

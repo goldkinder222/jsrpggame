@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+}
+.player {
+    width: 50%;
+    height: 100vh;
+    background-color: #BFC667;
+}
+.enemy {
+    width: 50%;
+    height: 100vh;
+    background-image: url(img/forest.jpg);
+    background-size: cover;
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+
+.player-header {
+    width: 100%;
+    height: 75px;
+    background-color: #95A13D;
+    display: flex;
+    justify-content: center;
+
+}
+.params {
+    width: 167px;
+    height: 60px;
+    background-color: #FFDFB0;
+    margin: 8px 15px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: start;
+    padding: 5px;
+}
+.params-text {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    padding: 16px 0;
+}
+
+.player-equip {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.player-inventory {
+    height: 100%;
+    margin: 10px;
+    width: 35%;
+    background-color:#FFDFB0;
+    border-radius: 25px;
+}
+.player-gear {
+    height: 100%;
+    margin: 10px;
+    width:  65%;
+    background-color:#FFDFB0;
+    border-radius: 25px;
+}
+
+.inventory-icon {
+    width: 50%;
+    margin: 10px 25% 0 25%;
+}
+.player-invetory-inner {
+    margin: 25px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inventory-item {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.gear-inner{
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.gearItem {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+
+
+
+/* Enemy */
+
+.enemy-inner {
+    position:absolute;
+    margin: auto;
+    bottom:0;
+    height: 80vh;
+    width: 25vw;
+}
+.enemy-info {
+    background-color: #ffdfb08a;
+    border-radius: 12px;
+}
+.enemy-header {
+    height: 90px;
+    width: 100%;
+    background-color: #FFDFB0;
+    border-radius: 12px 12px 0 0;
+}
+.enemy-img {
+    width: 100%;
+}
+
+
+.buttons-inner {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 0;
+}
+.btn {
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    background-color: #ffdfb08a;
+    border-radius: 12px;
+    border: none;
+}
+.btn img {
+    width: 100%;
+}
